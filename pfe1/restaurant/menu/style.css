@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #F5A623;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .menu a:hover {
+    background-color: #FFC500;
+    transform: scale(1.05);
+  }
+  
